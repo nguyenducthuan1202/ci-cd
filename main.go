@@ -24,3 +24,8 @@ func handleHome(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("content-type", "application/json")
 	w.Write(js)
 }
+
+// Hello function return string hello world
+func Hello() string {
+	return "hello world"
+}
